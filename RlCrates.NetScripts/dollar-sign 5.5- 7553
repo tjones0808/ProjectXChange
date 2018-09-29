@@ -1,0 +1,165 @@
+function cratePercentages(i){
+	var randomItem = Math.random();
+	switch(true){
+		case(randomItem >= 0 && randomItem <= 0.16):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/key.png" class="item-image" id="x1key">
+		<div class="item-name">
+		<span>x1 Key <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.16 && randomItem <= 0.31):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x2-key.png" class="item-image" id="x2keys">
+		<div class="item-name">
+		<span>x2 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.31 && randomItem <= 0.44):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x3-key.png" class="item-image" id="x3keys">
+		<div class="item-name">
+		<span>x3 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.44 && randomItem <= 0.56):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x4-key.png" class="item-image" id="x4keys">
+		<div class="item-name">
+		<span>x4 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.56 && randomItem <= 0.6513):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x5-key.png" class="item-image" id="x5keys">
+		<div class="item-name">
+		<span>x5 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.6513 && randomItem <= 0.7913):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x6-key.png" class="item-image" id="x6keys">
+		<div class="item-name">
+		<span>x6 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.7913 && randomItem <= 0.8513):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x7-key.png" class="item-image" id="x7keys">
+		<div class="item-name">
+		<span>x7 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.8513 && randomItem <= 0.8913):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x8-key.png" class="item-image" id="x8keys">
+		<div class="item-name">
+		<span>x8 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.8913 && randomItem <= 0.9213):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x9-key.png" class="item-image" id="x9keys">
+		<div class="item-name">
+		<span>x9 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9213 && randomItem <= 0.9463):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x10-key.png" class="item-image" id="x10keys">
+		<div class="item-name">
+		<span>x10 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9463 && randomItem <= 0.9663):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x12-key.png" class="item-image" id="x12keys">
+		<div class="item-name">
+		<span>x12 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9663 && randomItem <= 0.9838):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x14-key.png" class="item-image" id="x14keys">
+		<div class="item-name">
+		<span>x14 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9838 && randomItem <= 0.9938):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x17-key.png" class="item-image" id="x17keys">
+		<div class="item-name">
+		<span>x17 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9938 && randomItem <= 0.9988):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x25-key.png" class="item-image" id="x25keys">
+		<div class="item-name">
+		<span>x25 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9988 && randomItem <= 0.9998):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x50-key.png" class="item-image" id="x50keys">
+		<div class="item-name">
+		<span>x50 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9998 && randomItem <= 1):
+		rouleteItems[i] = `<div class="carousel-item common">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/x100-key.png" class="item-image" id="x100 keys">
+		<div class="item-name">
+		<span>x100 Keys <span class="common-name">Common</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+	}
+};

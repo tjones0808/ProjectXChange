@@ -1,0 +1,115 @@
+function cratePercentages(i){
+	var randomItem = Math.random();
+	switch(true){
+		case(randomItem >= 0 && randomItem <= 0.20):
+		rouleteItems[i] = `<div class="carousel-item uncommon">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/champions-crate-4.png" class="item-image" id="champions-crate-4">
+		<div class="item-name">
+		<span>Champions Crate 4 <span class="uncommon-name">Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.20 && randomItem <= 0.407):
+		rouleteItems[i] = `<div class="carousel-item uncommon">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/champions-crate-1.png" class="item-image" id="champions-crate-1">
+		<div class="item-name">
+		<span>Champions Crate 1 <span class="uncommon-name">Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.407 && randomItem <= 0.5685):
+		rouleteItems[i] = `<div class="carousel-item uncommon">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/players-choice-crate-1.png" class="item-image" id="players-choice-crate-1">
+		<div class="item-name">
+		<span>Players Choice Crate 1 <span class="uncommon-name">Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.5685 && randomItem <= 0.7085):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/troika.png" class="item-image" id="troika">
+		<div class="item-name">
+		<span>Troika <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.7085 && randomItem <= 0.7915):
+		rouleteItems[i] = `<div class="carousel-item exotic">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/discotheque.png" class="item-image" id="discotheque">
+		<div class="item-name">
+		<span>Discotheque <span class="exotic-name">Exotic</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.7915 && randomItem <= 0.8615):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/neothermal.png" class="item-image" id="neothermal">
+		<div class="item-name">
+		<span>Neo-Thermal <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.8615 && randomItem <= 0.9215):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/centiov17.png" class="item-image" id="centiov17">
+		<div class="item-name">
+		<span>Centio V17 <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9215 && randomItem <= 0.9615):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/magic-missile.png" class="item-image" id="magic-missile">
+		<div class="item-name">
+		<span>Magic Missile <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9615 && randomItem <= 0.9865):
+		rouleteItems[i] = `<div class="carousel-item uncommon">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/royal-crown-white.png" class="item-image" id="royal-crown-white">
+		<div class="item-name">
+		<span>Royal Crown Titanium White <span class="uncommon-name">Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9865 && randomItem <= 0.995):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/fireworks.png" class="item-image" id="fireworks">
+		<div class="item-name">
+		<span>Fireworks <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.995 && randomItem <= 0.1):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/electroshock.png" class="item-image" id="electroshock">
+		<div class="item-name">
+		<span>Electroshock <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+	}
+};

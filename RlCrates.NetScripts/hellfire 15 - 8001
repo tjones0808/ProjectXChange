@@ -1,0 +1,205 @@
+function cratePercentages(i){
+	var randomItem = Math.random();
+	switch(true){
+		case(randomItem >= 0 && randomItem <= 0.11):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/merc-white.png" class="item-image" id="merc-white">
+		<div class="item-name">
+		<span>Merc Titanium White <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.11 && randomItem <= 0.2):
+		rouleteItems[i] = `<div class="carousel-item exotic">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/turbine-black.png" class="item-image" id="turbine-black">
+		<div class="item-name">
+		<span>Turbine Black <span class="exotic-name">Exotic</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.2 && randomItem <= 0.285):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/tora.png" class="item-image" id="tora">
+		<div class="item-name">
+		<span>Tora <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.285 && randomItem <= 0.365):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/labyrinth.png" class="item-image" id="labyrinth">
+		<div class="item-name">
+		<span>Labyrinth <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.365 && randomItem <= 0.44):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/tachyon-white.png" class="item-image" id="tachyon-white">
+		<div class="item-name">
+		<span>Tachyon Titanium White <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.44 && randomItem <= 0.51):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/fireworks.png" class="item-image" id="fireworks">
+		<div class="item-name">
+		<span>Fireworks <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.51 && randomItem <= 0.575):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/chakram-white.png" class="item-image" id="chakram-white">
+		<div class="item-name">
+		<span>Chakram Titanium White <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.575 && randomItem <= 0.63):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/helios-sky-blue-octane-grey.png" class="item-image" id="helios-sky-blue-octane-grey">
+		<div class="item-name">
+		<span>Helios Sky Blue + Octane Grey <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.63 && randomItem <= 0.6725):
+		rouleteItems[i] = `<div class="carousel-item exotic">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/voltaic-purple.png" class="item-image" id="voltaic-purple">
+		<div class="item-name">
+		<span>Voltaic Purple <span class="exotic-name">Exotic</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.6725 && randomItem <= 0.7325):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/octane-sky-blue-octane-saffron.png" class="item-image" id="octane-sky-blue-octane-saffron">
+		<div class="item-name">
+		<span>Octane Sky Blue + Octane Saffron <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.7325 && randomItem <= 0.7825):
+		rouleteItems[i] = `<div class="carousel-item exotic">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/draco-crimson.png" class="item-image" id="draco-crimson">
+		<div class="item-name">
+		<span>Draco Crimson <span class="exotic-name">Exotic</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.7825 && randomItem <= 0.8275):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/party-time.png" class="item-image" id="party-time">
+		<div class="item-name">
+		<span>Party Time <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.8275 && randomItem <= 0.865):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/octane-crimson-x10-keys.png" class="item-image" id="octane-crimson-x10-keys">
+		<div class="item-name">
+		<span>Octane Crimson + x10 Keys <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.865 && randomItem <= 0.8975):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/streamline-sub-zero.png" class="item-image" id="streamline-sub-zero">
+		<div class="item-name">
+		<span>Streamline + Sub-Zero <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.8975 && randomItem <= 0.925):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/fire-god.png" class="item-image" id="fire-god">
+		<div class="item-name">
+		<span>Fire God <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.925 && randomItem <= 0.95):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/dueling-dragons-looper-white.png" class="item-image" id="dueling-dragons-looper-white">
+		<div class="item-name">
+		<span>Dueling Dragons + Looper Titanium White <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.95 && randomItem <= 0.97):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/heatwave-x30-key.png" class="item-image" id="heatwave-x30-key">
+		<div class="item-name">
+		<span>Heatwave + x30 Keys <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.97 && randomItem <= 0.9875):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/dueling-dragons-x30-keys.png" class="item-image" id="dueling-dragons-x30-keys">
+		<div class="item-name">
+		<span>Dueling Dragons + x30 Keys <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.9875 && randomItem <= 0.999):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/dissolver-storm-watch.png" class="item-image" id="dissolver-storm-watch">
+		<div class="item-name">
+		<span>Dissolver + Storm Watch <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.999 && randomItem <= 1):
+		rouleteItems[i] = `<div class="carousel-item combo">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/draco-white-x40-keys.png" class="item-image" id="draco-white-x40-keys">
+		<div class="item-name">
+		<span>Draco Titanium White + x40 Keys <span class="combo-name">Combo</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+	}
+};

@@ -1,0 +1,115 @@
+function cratePercentages(i){
+	var randomItem = Math.random();
+	switch(true){
+		case(randomItem >= 0 && randomItem <= 0.20):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/snakeskin-mantis.png" class="item-image" id="snakeskin-mantis">
+		<div class="item-name">
+		<span>Snakeskin Mantis <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.20 && randomItem <= 0.38):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/fireplug.png" class="item-image" id="fireplug">
+		<div class="item-name">
+		<span>Fireplug <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.38 && randomItem <= 0.54):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/blazer.png" class="item-image" id="blazer">
+		<div class="item-name">
+		<span>Blazer <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.54 && randomItem <= 0.68):
+		rouleteItems[i] = `<div class="carousel-item very-rare">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/lightspeed.png" class="item-image" id="lightspeed">
+		<div class="item-name">
+		<span>Lightspeed <span class="very-rare-name">Very Rare</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.68 && randomItem <= 0.769):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/jager-619-rs.png" class="item-image" id="jager-619-rs">
+		<div class="item-name">
+		<span>Jager 619 RS <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.769 && randomItem <= 0.849):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/werewolf.png" class="item-image" id="werewolf">
+		<div class="item-name">
+		<span>Werewolf <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.849 && randomItem <= 0.919):
+		rouleteItems[i] = `<div class="carousel-item import">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/kaleidoscope.png" class="item-image" id="kaleidoscope">
+		<div class="item-name">
+		<span>Kaleidoscope <span class="import-name">Import</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.919 && randomItem <= 0.961):
+		rouleteItems[i] = `<div class="carousel-item exotic">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/butterflies.png" class="item-image" id="butterflies">
+		<div class="item-name">
+		<span>Butterflies <span class="exotic-name">Exotic</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.961 && randomItem <= 0.991):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/tora.png" class="item-image" id="tora">
+		<div class="item-name">
+		<span>Tora <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.991 && randomItem <= 0.999):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/fireworks.png" class="item-image" id="fireworks">
+		<div class="item-name">
+		<span>Fireworks <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+		case(randomItem > 0.999 && randomItem <= 0.1):
+		rouleteItems[i] = `<div class="carousel-item black-market">
+		<div>
+		<img src="https://www.rlcrates.net/style/images/items/20xx.png" class="item-image" id="20xx">
+		<div class="item-name">
+		<span>20XX <span class="black-market-name">Black Market</span></span>
+		</div>
+		</div>
+		</div>`;
+		break;
+	}
+};
