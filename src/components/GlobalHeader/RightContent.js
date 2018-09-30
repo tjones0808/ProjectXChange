@@ -41,11 +41,11 @@ export default class GlobalHeaderRight extends PureComponent {
 
   changLang = () => {
     const locale = getLocale();
-    if (!locale || locale === 'zh-CN') {
+    //if (!locale || locale === 'zh-CN') {
       setLocale('en-US');
-    } else {
-      setLocale('zh-CN');
-    }
+    //} else {
+     // setLocale('zh-CN');
+    //}
   };
 
   render() {
@@ -156,18 +156,7 @@ export default class GlobalHeaderRight extends PureComponent {
         ) : (
           <Spin size="small" style={{ marginLeft: 8, marginRight: 8 }} />
         )}
-        <Button
-          size="small"
-          ghost={theme === 'dark'}
-          style={{
-            margin: '0 8px',
-          }}
-          onClick={() => {
-            this.changLang();
-          }}
-        >
-          <FormattedMessage id="navbar.lang" />
-        </Button>
+       
       </div>
     );
   }

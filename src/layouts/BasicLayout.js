@@ -169,13 +169,13 @@ class BasicLayout extends React.PureComponent {
     const currRouterData = this.matchParamsPath(pathname);
 
     if (!currRouterData) {
-      return 'Ant Design Pro';
+      return 'RL XChange';
     }
     const message = formatMessage({
       id: currRouterData.locale || currRouterData.name,
       defaultMessage: currRouterData.name,
     });
-    return `${message} - Ant Design Pro`;
+    return `${message} - RL XChange`;
   };
 
   getLayoutStyle = () => {
@@ -209,10 +209,10 @@ class BasicLayout extends React.PureComponent {
     // Do not render SettingDrawer in production
     // unless it is deployed in preview.pro.ant.design as demo
     const { rendering } = this.state;
-    if ((rendering || process.env.NODE_ENV === 'production') && APP_TYPE !== 'site') {
+  //  if ((rendering || process.env.NODE_ENV === 'production') && APP_TYPE !== 'site') {
       return null;
-    }
-    return <SettingDrawer />;
+    //}
+    //return <SettingDrawer />;
   }
 
   render() {
